@@ -48,7 +48,7 @@ public class BinarySearchTreeDriver {
 
         System.out.println("\nLevel Order traversal of binary tree will be:");
         printTraversal(bst.iteratorLevelOrder());
-        
+
         System.out.println();
         ((BinarySearchTree<Integer>) bst).printTopDownTree();
 
@@ -56,7 +56,7 @@ public class BinarySearchTreeDriver {
 
         // System.out.println();
         // ((BinarySearchTree<Integer>) bst).printTopDownTree();
-      
+
     }
 
     private static void printTraversal(Iterator iterator) {
@@ -69,3 +69,5 @@ public class BinarySearchTreeDriver {
         }
     }
 }
+
+

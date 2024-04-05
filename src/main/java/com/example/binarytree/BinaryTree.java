@@ -51,7 +51,7 @@ public class BinaryTree<T> implements Tree<T> {
         BinaryTreeNode<T> current = findNode(targetElement, root);
 
         if (current == null) throw new ElementNotFoundException(this.getClass()
-                                                                    .getCanonicalName());
+                .getCanonicalName());
 
         return (current.getElement());
     }
@@ -305,7 +305,7 @@ public class BinaryTree<T> implements Tree<T> {
                     String aa;
                     if (n.getElement() != null) {
                         aa = n.getElement()
-                              .toString();
+                                .toString();
                     } else {
                         aa = "null";
                     }
@@ -332,7 +332,7 @@ public class BinaryTree<T> implements Tree<T> {
         }
 
         int perPiece = lines.get(lines.size() - 1)
-                            .size() * (widest + 4);
+                .size() * (widest + 4);
         for (int i = 0; i < lines.size(); i++) {
             List<String> line = lines.get(i);
             int hpw = (int) Math.floor(perPiece / 2f) - 1;
